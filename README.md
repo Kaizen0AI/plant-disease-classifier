@@ -21,8 +21,8 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 
 |Experiment|Val Accuracy|
 |-|-|
-|Baseline|92.6%|
-|+Fine Tuning|95%|
+|Frozen Base Model|92.6%|
+|Fine-Tuned Model|95%|
 
 ## Experiment 1: Frozen Base Model
 
@@ -33,10 +33,16 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 
 ## Experiment 2: Fine Tuned Model
 
-* Fine Tuned MobileNetV2 model on PLantVillage dataset
+* Fine-Tuned MobileNetV2 model on PLantVillage dataset
 * Upper 20 layers(includes last 2 bottleneck blocks) fine tuned
 * Epochs: 10
 * Validation Accuracy: 95%
+
+## Key Findings
+
+- Transfer learning dramatically outperformed training from scratch.
+- Fine-tuning only the upper layers improved validation accuracy from 92.6% to 95.0%.
+- MobileNetV2 pretrained on ImageNet transferred effectively to plant disease classification.
 
 ## Future Improvements
 
