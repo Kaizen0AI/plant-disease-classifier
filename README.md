@@ -22,7 +22,7 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 |Experiment|Val Accuracy|
 |-|-|
 |Baseline|92.6%|
-|+||
+|+Fine Tuning|95%|
 
 ## Experiment 1: Frozen Base Model
 
@@ -31,10 +31,17 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 * Epochs: 10
 * Validation Accuracy: 92.6%
 
+## Experiment 2: Fine Tuned Model
+
+* Fine Tuned MobileNetV2 model on PLantVillage dataset
+* Upper 20 layers(includes last 2 bottleneck blocks) fine tuned
+* Epochs: 10
+* Validation Accuracy: 95%
+
 ## Future Improvements
 
-* Fine-tune upper MobileNetV2 layers
-* Compare frozen vs fine-tuned performance
+* Fine-tune upper MobileNetV2 layers✅
+* Compare frozen vs fine-tuned performance✅
 * Add confusion matrix analysis
 * Save and evaluate best model
 
