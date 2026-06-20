@@ -48,11 +48,16 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 
 - Validation Accuracy: 95.0%
 - Confusion Matrix Analysis
-  <img width="487" height="460" alt="Screenshot 2026-06-20 194315" src="https://github.com/user-attachments/assets/efe6e622-31f4-4335-8a10-20f66f2cb10c" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/efe6e622-31f4-4335-8a10-20f66f2cb10c" width="600">
+</p>
 
 - Classification Report
-  <img width="461" height="272" alt="Screenshot 2026-06-20 194029" src="https://github.com/user-attachments/assets/33ff126a-6fa4-4b1e-b3f4-de5ba495cc00" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33ff126a-6fa4-4b1e-b3f4-de5ba495cc00" width="600">
+</p>
 
 ## Future Improvements
 
