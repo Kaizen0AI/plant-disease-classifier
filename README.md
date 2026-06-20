@@ -44,14 +44,24 @@ A MobileNetV2 implementation built with transfer learning in TensorFlow for Plan
 - Fine-tuning only the upper layers improved validation accuracy from 92.6% to 95.0%.
 - MobileNetV2 pretrained on ImageNet transferred effectively to plant disease classification.
 
+## Evaluation
+
+- Validation Accuracy: 95.0%
+- Confusion Matrix Analysis
+  <img width="487" height="460" alt="Screenshot 2026-06-20 194315" src="https://github.com/user-attachments/assets/efe6e622-31f4-4335-8a10-20f66f2cb10c" />
+
+- Classification Report
+  <img width="461" height="272" alt="Screenshot 2026-06-20 194029" src="https://github.com/user-attachments/assets/33ff126a-6fa4-4b1e-b3f4-de5ba495cc00" />
+
+
 ## Future Improvements
 
 * Fine-tune upper MobileNetV2 layers✅
 * Compare frozen vs fine-tuned performance✅
-* Add confusion matrix analysis
-* Save and evaluate best model
+* Add confusion matrix analysis✅
+* Save and evaluate best model✅
 
 ## Project Status
 
-✅ In Progress
+✅ Completed
 
